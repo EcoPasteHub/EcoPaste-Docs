@@ -1,0 +1,17 @@
+{
+  "name": "ecopaste-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "rspress": "^1.33.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.114"
+  }
+}

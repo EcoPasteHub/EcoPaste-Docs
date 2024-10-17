@@ -1,0 +1,17 @@
+[
+  {
+    "text": "使用指南",
+    "link": "/guide/",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "常见问题",
+    "link": "/problem/macos/damage",
+    "activeMatch": "/problem/"
+  },
+  {
+    "text": "下载",
+    "link": "/download/",
+    "activeMatch": "/download/"
+  }
+]
