@@ -1,0 +1,17 @@
+# EcoPaste.app 已损坏，无法打开。
+
+## 报错截图
+
+<img src="./imgs/error-light.png" class="dark:hidden" />
+<img src="./imgs/error-dark.png" class="hidden dark:block" />
+
+## 解决方案
+
+在终端窗口输入以下命令，按回车键后输入系统密码并再次按回车键即可。
+
+```shell
+sudo xattr -r -d com.apple.quarantine /Applications/EcoPaste.app
+```
+
+<img src="./imgs/solve-light.png" class="dark:hidden" />
+<img src="./imgs/solve-dark.png" class="hidden dark:block" />

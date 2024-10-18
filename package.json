@@ -12,6 +12,7 @@
     "rspress": "^1.33.1"
   },
   "devDependencies": {
-    "@types/node": "^16.18.114"
+    "@types/node": "^16.18.114",
+    "tailwindcss": "^3.4.14"
   }
 }
