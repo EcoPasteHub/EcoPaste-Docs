@@ -13,10 +13,14 @@ export default defineConfig({
   themeConfig: {
     enableContentAnimation: true,
     enableAppearanceAnimation: true,
+    lastUpdated: true,
     searchPlaceholderText: "搜索",
     searchNoResultsText: "未搜索到相关结果",
     searchSuggestedQueryText: "可更换不同的关键字后重试",
-    lastUpdated: true,
+    lastUpdatedText: "最后更新时间",
+    prevPageText: "上一篇",
+    nextPageText: "下一篇",
+    outlineTitle: "页面导航",
     socialLinks: [
       {
         icon: "github",
@@ -27,6 +31,9 @@ export default defineConfig({
   },
   markdown: {
     mdxRs: false,
-    globalComponents: [join(__dirname, "src", "components", "Image.tsx")],
+    globalComponents: [
+      join(__dirname, "src", "components", "Image"),
+      join(__dirname, "src", "components", "Link"),
+    ],
   },
 });

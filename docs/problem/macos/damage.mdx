@@ -8,13 +8,13 @@ import { normalizeImagePath } from "rspress/runtime";
 
 ## 报错原因
 
-由于应用需要官方签名，才能避免安装后弹出“应用已损坏”的提示，但官方签名的费用昂贵，每年 $99，开源项目无力承担。因此，需要手动绕过签名以正常使用 EcoPaste。
+由于应用需要官方签名，才能避免安装后弹出“应用已损坏”的提示，但官方签名的费用昂贵，每年 99 美元，开源项目无法负担。因此，需要手动绕过签名以正常使用 EcoPaste。
 
 ## 解决方案
 
-在终端窗口输入以下命令，按回车键后输入系统密码并再次按回车键即可。
+在终端窗口输入以下命令，按回车键后输入系统密码（不可见）并再次按回车键即可。
 
-```shell
+```bash
 sudo xattr -r -d com.apple.quarantine /Applications/EcoPaste.app
 ```
 

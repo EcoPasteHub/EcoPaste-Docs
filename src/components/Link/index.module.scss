@@ -1,0 +1,8 @@
+.root {
+  color: var(--rp-c-link);
+  font-weight: 500;
+  &:hover {
+    opacity: 0.85;
+    border-bottom: 1px solid var(--rp-c-brand);
+  }
+}
