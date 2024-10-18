@@ -36,4 +36,5 @@ export default defineConfig({
       join(__dirname, "src", "components", "Link"),
     ],
   },
+  globalStyles: join(__dirname, "src", "styles", "global.scss"),
 });
