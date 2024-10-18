@@ -1,0 +1,21 @@
+import { normalizeImagePath } from "rspress/runtime";
+
+# EcoPaste.app 已损坏，无法打开。
+
+## 报错截图
+
+<Image src="/problem/macos/damage/error-light.png" />
+
+## 报错原因
+
+由于应用需要官方签名，才能避免安装后弹出“应用已损坏”的提示，但官方签名的费用昂贵，每年 $99，开源项目无力承担。因此，需要手动绕过签名以正常使用 EcoPaste。
+
+## 解决方案
+
+在终端窗口输入以下命令，按回车键后输入系统密码并再次按回车键即可。
+
+```shell
+sudo xattr -r -d com.apple.quarantine /Applications/EcoPaste.app
+```
+
+<Image src="/problem/macos/damage/solve-light.png" />

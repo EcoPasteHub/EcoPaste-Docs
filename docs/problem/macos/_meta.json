@@ -1,8 +1,1 @@
-[
-  {
-    "type": "file",
-    "name": "damage",
-    "label": "EcoPaste.app 已损坏，无法打开。"
-  },
-  "each-authorization"
-]
+["damage", "authorization"]

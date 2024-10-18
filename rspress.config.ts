@@ -25,5 +25,8 @@ export default defineConfig({
       },
     ],
   },
-  globalStyles: join(__dirname, "styles", "index.css"),
+  markdown: {
+    mdxRs: false,
+    globalComponents: [join(__dirname, "src", "components", "Image.tsx")],
+  },
 });
