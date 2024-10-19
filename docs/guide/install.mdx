@@ -1,0 +1,52 @@
+# 安装指南
+
+## Windows
+
+### 手动下载
+
+- 32 位机器请下载 `*_x86-setup.exe`，下载完成后双击安装即可。
+
+- 64 位机器请下载 `*_x64-setup.exe`，下载完成后双击安装即可。
+
+- arm64 机器请下载 `*_arm64-setup.exe`，下载完成后双击安装即可。
+
+## MacOS
+
+:::warning EcoPaste.app 已损坏，无法打开。
+[点击此处](/problem/macos/damage)查看解决方案。
+:::
+
+### 手动安装
+
+- M 芯片请下载 `*_aarch64.dmg`，下载后打开拖入 Applications 即可。
+- Intel 芯片请下载 `*_x64.dmg`，下载后打开拖入 Applications 即可。
+
+### HomeBrew 安装
+
+1. 添加我们的 tap:
+
+```bash
+brew tap EcoPasteHub/EcoPaste
+```
+
+2. 安装:
+
+```bash
+brew install ecopaste
+```
+
+3. 更新:
+
+```bash
+brew upgrade ecopaste
+```
+
+4. 卸载:
+
+```bash
+brew uninstall --cask ecopaste
+
+brew untap EcoPasteHub/EcoPaste
+```
+
+## Linux
