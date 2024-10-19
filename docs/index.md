@@ -4,14 +4,14 @@ pageType: home
 hero:
   name: EcoPaste
   text: 开源的跨平台剪切板管理工具
-  tagline: EcoPaste tagline
+  tagline: 免费、开源、跨平台
   actions:
     - theme: brand
       text: 下载
       link: /download/
     - theme: alt
       text: 使用指南
-      link: /guide/  
+      link: /guide/
   image:
     src: /icon.png
     alt: EcoPaste Logo
