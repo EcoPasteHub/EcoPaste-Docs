@@ -3,7 +3,7 @@ pageType: home
 
 hero:
   name: EcoPaste
-  text: 开源的跨平台剪切板管理工具
+  text: 跨平台剪贴板管理
   tagline: 免费、开源、跨平台
   actions:
     - theme: brand

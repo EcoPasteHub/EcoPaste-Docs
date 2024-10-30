@@ -2,16 +2,16 @@
   {
     "type": "dir",
     "name": "macos",
-    "label": "macos"
+    "label": "MacOS"
   },
   {
     "type": "dir",
     "name": "windows",
-    "label": "windows"
+    "label": "Windows"
   },
   {
     "type": "dir",
     "name": "linux",
-    "label": "linux"
+    "label": "Linux"
   }
 ]
