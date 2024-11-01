@@ -28,12 +28,18 @@ export default defineConfig({
         content: "https://github.com/EcoPasteHub/EcoPaste",
       },
     ],
+    editLink: {
+      docRepoBaseUrl:
+        "https://github.com/EcoPasteHub/EcoPaste-Docs/tree/master/docs",
+      text: "📝 在 GitHub 上编辑此页",
+    },
   },
   markdown: {
     mdxRs: false,
     globalComponents: [
       join(__dirname, "src", "components", "Image"),
       join(__dirname, "src", "components", "Link"),
+      join(__dirname, "src", "components", "Download"),
     ],
   },
   globalStyles: join(__dirname, "src", "styles", "global.scss"),
