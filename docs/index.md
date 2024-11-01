@@ -25,7 +25,7 @@ features:
   - title: 多种格式支持
     details: 支持纯文本、富文本、HTML、图片和文件等格式，自动分组整理，方便查看与管理。
     icon: 🎨
-  - title: 内置OCR识别
+  - title: 离线OCR识别
     details: 支持离线OCR，轻松识别文本和二维码，省去外部依赖，使用更便捷。
     icon: 🌍
   - title: 个性化配置
