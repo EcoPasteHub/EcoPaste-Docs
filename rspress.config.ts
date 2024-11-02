@@ -55,4 +55,7 @@ export default defineConfig({
       ],
     },
   },
+  route: {
+    cleanUrls: true,
+  },
 });
