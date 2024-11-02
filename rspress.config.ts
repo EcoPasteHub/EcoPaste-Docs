@@ -42,5 +42,17 @@ export default defineConfig({
       join(__dirname, "src", "components", "Download"),
     ],
   },
-  globalStyles: join(__dirname, "src", "styles", "global.scss"),
+  globalStyles: join(__dirname, "src", "styles", "index.scss"),
+  builderConfig: {
+    html: {
+      tags: [
+        {
+          tag: "script",
+          attrs: {
+            src: "//at.alicdn.com/t/c/font_4731968_o5lkwrsdztk.js",
+          },
+        },
+      ],
+    },
+  },
 });

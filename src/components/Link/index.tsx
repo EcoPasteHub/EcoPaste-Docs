@@ -1,12 +1,13 @@
-import clsx from "clsx";
-import React, { FC, HTMLAttributes, useEffect } from "react";
-import styles from "./index.module.scss";
+import React, { FC, AnchorHTMLAttributes } from "react";
 
-const Link: FC<HTMLAttributes<HTMLAnchorElement>> = (props) => {
-  const { className, children, ...rest } = props;
+const Link: FC<AnchorHTMLAttributes<HTMLAnchorElement>> = (props) => {
+  const { children, ...rest } = props;
 
   return (
-    <a {...rest} className={clsx(styles.root, className)}>
+    <a
+      {...rest}
+      className="font-medium text-[var(--rp-c-link)] hover:border-b hover:border-[var(--rp-c-brand)] hover:opacity-85"
+    >
       {children}
     </a>
   );
