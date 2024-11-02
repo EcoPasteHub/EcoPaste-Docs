@@ -84,7 +84,7 @@ function Download() {
   };
 
   return (
-    <div className="flex flex-col bg-slate-100 min-h-[calc(100vh-var(--rp-nav-height))] justify-center items-center dark:bg-neutral-950">
+    <div className="bg-slate-100 min-h-[calc(100vh-var(--rp-nav-height))] dark:bg-neutral-950">
       <div className="bg-[var(--rp-container-tip-bg)] text-center w-full p-3">
         <div className="font-bold text-[var(--rp-container-tip-text)] mb-2">
           最新稳定版本：{data?.name}
