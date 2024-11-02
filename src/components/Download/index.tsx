@@ -38,8 +38,6 @@ function Download() {
       state.list.push({ platform, assets: [] });
     }
 
-    console.log("list", state.list);
-
     for (const asset of data.assets) {
       let platform: Platform;
 
@@ -55,14 +53,10 @@ function Download() {
 
       findItem?.assets.push(asset);
     }
-
-    console.log("state.list", state.list);
   }, [data]);
 
   const getPlatform = (): Platform | undefined => {
     const userAgent = navigator.userAgent.toLowerCase();
-
-    console.log("userAgent", userAgent);
 
     if (userAgent.includes("win")) {
       return "Windows";
@@ -96,7 +90,7 @@ function Download() {
           最新稳定版本：{data?.name}
         </div>
         <div>
-          不知道下载哪个？查看
+          不确定下载哪个？请查看
           <Link href="/guide/install">安装指南</Link>
         </div>
       </div>
