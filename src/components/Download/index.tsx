@@ -73,11 +73,15 @@ function Download() {
 
   const getArch = (platform: Platform, assetName: string) => {
     if (platform === "Windows") {
-      return last(assetName.split("_"))?.split("-")[0];
+      return assetName.match(/x64|x86/)?.[0] ?? "ARM64";
     }
 
     if (platform === "MacOS") {
-      return last(assetName.split("_"))?.split(".")[0];
+      if (assetName.includes("x64")) {
+        return "Intel";
+      } else {
+        return "Apple Silicon";
+      }
     }
 
     return last(assetName.split("."));
