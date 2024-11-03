@@ -53,6 +53,12 @@ function Download() {
 
       findItem?.assets.push(asset);
     }
+
+    for (const item of state.list) {
+      if (item.platform === "Windows" || item.platform === "Linux") {
+        item.assets = item.assets.reverse();
+      }
+    }
   }, [data]);
 
   const getPlatform = (): Platform | undefined => {
