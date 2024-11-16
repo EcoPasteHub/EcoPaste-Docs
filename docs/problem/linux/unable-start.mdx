@@ -1,0 +1,27 @@
+# 不能启动
+
+## 为什么？
+
+tauri依赖`webview`和`Gtk`,可能缺少依赖项
+
+## 解决方案
+
+安装缺失依赖
+
+### ArchLinux / Manjaro
+
+```bash
+sudo pacman -S webkit2gtk-4.1
+```
+
+### Debian / Ubuntu
+
+```bash
+sudo apt-get install libwebkit2gtk-4.0-dev
+```
+
+### Gentoo
+
+```bash
+sudo emerge --ask net-libs/webkit-gtk:4.1
+```
