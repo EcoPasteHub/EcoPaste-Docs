@@ -48,3 +48,122 @@ brew untap EcoPasteHub/EcoPaste
 ```
 
 ## Linux
+
+> 仅支持在X11环境下使用
+
+### Ubuntu、Debain 系列
+
+1.安装
+
+前往[下载页面](https://ecopaste.cn/download/index)下载 `deb` 文件，然后执行以下命令：
+
+```bash
+# 安装依赖
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev libgtk-3-dev
+
+sudo dpkg -i ecopaste.deb
+```
+
+2.更新
+
+前往[下载页面](https://ecopaste.cn/download/index)下载 最新的`deb` 文件
+
+```bash
+sudo dpkg -i ecopaste.deb
+```
+
+3.卸载
+
+```bash
+sudo apt-get purge ecopaste
+```
+
+### ArchLinux、Manjaro 系列
+
+1.安装
+
+```bash
+yay -S eco-paste-bin
+```
+
+2.更新
+
+```bash
+yay -Syyu
+```
+
+3.卸载
+
+```bash
+sudo pacman -Rcns eco-paste-bin
+```
+
+### Red Hat、CentOS、Fedora 系列
+
+前往[下载页面](https://ecopaste.cn/download/index)下载 `rpm` 文件，然后执行以下命令：
+
+1.安装
+
+```bash
+# 安装依赖
+sudo dnf check-update
+sudo dnf install webkit2gtk4.0-devel libappindicator-gtk3-devel
+
+rpm -ivh ecopaste.rpm
+```
+
+2.更新
+
+前往[下载页面](https://ecopaste.cn/download/index)下载 新版本`rpm` 文件
+
+```bash
+rpm -Uvh ecopaste.rpm
+```
+
+3.卸载
+
+```bash
+rpm -ev ecopaste
+```
+
+### 其他发行版
+
+1.安装
+
+前往[下载页面](https://ecopaste.cn/download/index)下载 `Appimage` 文件，然后执行以下命令：
+
+```bash
+chmod +x ecopaste.AppImage
+./ecopaste.AppImage
+```
+
+2.创建桌面图标
+
+> 以上步骤已经打开了`ecopaste`,可以正常使用，但缺少桌面图标，且终端不能关闭，以下步骤可以创建桌面图标
+
+```bash
+./ecopaste.AppImage --appimage-extract
+sed -i 's|Exec=.*|Exec=/opt/ecopaste/EcoPaste.AppImage|g' squashfs-root/usr/share/applications/eco-paste.desktop
+sed -i 's/^Icon=.*/Icon=EcoPaste/g' squashfs-root/usr/share/applications/eco-paste.desktop
+install -Dm644 squashfs-root/usr/share/applications/eco-paste.desktop /usr/share/applications/EcoPaste.desktop
+wget "https://raw.githubusercontent.com/EcoPasteHub/EcoPaste-Logo/refs/heads/master/img/logo.svg" -O EcoPaste.svg
+install -Dm644 EcoPaste.svg /usr/share/icons/hicolor/scalable/apps/EcoPaste.svg
+rm -r squashfs-root EcoPaste.svg
+mkdir -p /opt/ecopaste
+mv ecopaste.AppImage /opt/ecopaste/
+```
+
+3.更新
+
+前往[下载页面](https://ecopaste.cn/download/index)下载新版本`Appimage` 文件，替换之前下载的文件
+```bash
+mv ecopaste.AppImage /opt/ecopaste/
+```
+
+4.卸载
+
+```bash
+rm -r /opt/ecopaste
+rm /usr/share/applications/EcoPaste.desktop /usr/share/icons/hicolor/scalable/apps/EcoPaste.svg
+```
