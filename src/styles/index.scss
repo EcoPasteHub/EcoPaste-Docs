@@ -9,8 +9,20 @@ h4 {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:flex-row {
-    flex-direction: row !important;
+.rspress-nav {
+  + section {
+    @media (min-width: 768px) {
+      .md\:flex-row {
+        flex-direction: row !important;
+      }
+    }
+  }
+}
+
+.rspress-doc-footer {
+  @media (min-width: 640px) {
+    .sm\:flex-row {
+      flex-direction: row !important;
+    }
   }
 }

@@ -27,8 +27,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       rspress:
-        specifier: ^1.37.0
-        version: 1.37.0(webpack@5.95.0)
+        specifier: ^1.37.1
+        version: 1.37.1(webpack@5.95.0)
     devDependencies:
       '@types/node':
         specifier: ^16.18.119
@@ -231,12 +231,6 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@loadable/component@5.16.4':
-    resolution: {integrity: sha512-fJWxx9b5WHX90QKmizo9B+es2so8DnBthI1mbflwCoOyvzEwxiZ/SVDCTtXEnHG72/kGBdzr297SSIekYtzSOQ==}
-    engines: {node: '>=8'}
-    peerDependencies:
-      react: ^16.3.0 || ^17.0.0 || ^18.0.0
-
   '@mdx-js/loader@2.3.0':
     resolution: {integrity: sha512-IqsscXh7Q3Rzb+f5DXYk0HU71PK+WuFsEhf+mSV3fOhpLcEpgsHvTQ2h0T6TlZ5gHOaBeFjkXwB52by7ypMyNg==}
     peerDependencies:
@@ -249,9 +243,6 @@ packages:
     resolution: {integrity: sha512-zQH//gdOmuu7nt2oJR29vFhDv88oGPmVw6BggmrHeMI+xgEkp1B2dX9/bMBSYtK0dyLX/aOmesKS09g222K1/g==}
     peerDependencies:
       react: '>=16'
-
-  '@modern-js/utils@2.62.0':
-    resolution: {integrity: sha512-nIKB1U3QYBc0n4FQTJMP1l1XJzABcbJ8UR0u9BsXYHX/cPwrQNIMC2NqZTXXMBPEAhUQiwHbSHcvk1HVYQCdxw==}
 
   '@module-federation/runtime-tools@0.5.1':
     resolution: {integrity: sha512-nfBedkoZ3/SWyO0hnmaxuz0R0iGPSikHZOAZ0N/dVSQaIzlffUo35B5nlC2wgWIc0JdMZfkwkjZRrnuuDIJbzg==}
@@ -374,8 +365,8 @@ packages:
       react-refresh:
         optional: true
 
-  '@rspress/core@1.37.0':
-    resolution: {integrity: sha512-x4Y4YkPPePnT81bS2qpu0eGPtnKSK2N3GsP1m6zTsknSuh0HF7b9xWbTrYWb1FNDwElxPTMjS3eluoivbZcBQw==}
+  '@rspress/core@1.37.1':
+    resolution: {integrity: sha512-crrBWWx+qvwCiUUdmlaEQG6w8K7TzCrxWmj5Sg/ZahoUWVQ5I4ExbDKVAT+tJO7xIZwb9MvT2yzOF7DxAFpABQ==}
     engines: {node: '>=14.17.6'}
 
   '@rspress/mdx-rs-darwin-arm64@0.6.3':
@@ -430,40 +421,37 @@ packages:
     resolution: {integrity: sha512-mljyb42a7jk/TU46VwtTopuabWV8hRHjDWEeajn/Zo1s9WcBK4TDneUogEH8TXHgrTQLheQG25vO8LoVQxuqCQ==}
     engines: {node: '>= 10'}
 
-  '@rspress/plugin-auto-nav-sidebar@1.37.0':
-    resolution: {integrity: sha512-L7tvrvYQb4sH+Eq2QL4a7MiM2C+26LcJ9axnivj03hU/9wjPJ5bO5hUKaIxVGS57ieuwu3+IHiUNTCc/Xjb9SA==}
+  '@rspress/plugin-auto-nav-sidebar@1.37.1':
+    resolution: {integrity: sha512-ncl6wVL/JsIufjWY73TFKUJw5GGjzlbehkccaI3l/hftPUtoPe4tG/2Gf3Ji3rRxa5PXqQea1kvMjm/JksaIiw==}
     engines: {node: '>=14.17.6'}
 
-  '@rspress/plugin-container-syntax@1.37.0':
-    resolution: {integrity: sha512-2/BCqYbUpCrrphNxStxQUA07XV/JzHtOte/LvoR7hI2vsI94MccerMIGqSOtoLA2oyNhBKHG5/fcS6pt2qTvlg==}
+  '@rspress/plugin-container-syntax@1.37.1':
+    resolution: {integrity: sha512-vzHFZJMZlQUK28QP08d9Sm8RW9eAS+kAO+MLG31IBivm/UrdhegqRyt16UQrLzEeja1Ltn98JAAdKM1GPHrEqA==}
     engines: {node: '>=14.17.6'}
 
-  '@rspress/plugin-last-updated@1.37.0':
-    resolution: {integrity: sha512-vfEVMwh/eamCLD4ZmTTjN+B3Wsi4vLPYYe5yLE+40KSrHwGsR9+iKh0pAPvy2PLlFGnRXoFb8wzoK9erW+RzxA==}
+  '@rspress/plugin-last-updated@1.37.1':
+    resolution: {integrity: sha512-cmGSvZIZf+kU03cR6NJHkR76A2xt7v5i5bw4JqYOjZcRdtnKvvWMioea0n7PIAHRp9FyE1ljdnEXpZcRu6h9zg==}
     engines: {node: '>=14.17.6'}
 
-  '@rspress/plugin-medium-zoom@1.37.0':
-    resolution: {integrity: sha512-pslruQrfLiBiBpcDdgytZc8lJ9zoj9EUClCdQSpJm8WTvwOaEVUGsVwe0RJ1UJfJ+l2LePhLpqf6ugE0XGbB8Q==}
+  '@rspress/plugin-medium-zoom@1.37.1':
+    resolution: {integrity: sha512-IfDpqdzs3jO2j5yAR1qLcIq0b1Vt1PmtzyB33Na6TWdHVq9XZKlGFWRcEFgF6uOzKBrHdOilFWi0SGFpK4egBg==}
     engines: {node: '>=14.17.6'}
     peerDependencies:
-      '@rspress/runtime': ^1.37.0
+      '@rspress/runtime': ^1.37.1
 
-  '@rspress/runtime@1.37.0':
-    resolution: {integrity: sha512-ovWOWZQfnFdvhzsXRJrfGMDZJr5wY1wjh0wzz/kLP4q58v9XpoJaW3jpL8/dkdJdCi04S0Lf9zEO1p4vXFSdMQ==}
+  '@rspress/runtime@1.37.1':
+    resolution: {integrity: sha512-Kax1U3zj9CWNhW9VkDBfVfMO585+YXSY/gQRxWHP93o7YNTY7bBSu73IkaandW1+7bUXc0SO0xrZnsiKhxrq6Q==}
     engines: {node: '>=14.17.6'}
 
-  '@rspress/shared@1.37.0':
-    resolution: {integrity: sha512-1+8XQ8uTAfaLiU9yOR49VmKymD1EpmYaRrUolx3m7jHctbScu4+1giDcB9iC1oanDUODuNEvoheShFmZQTSqZQ==}
+  '@rspress/shared@1.37.1':
+    resolution: {integrity: sha512-4F59HFo8U3HUfa092EMWtfDiJv0hqBnlJbA7nBtihehKk8Wq9cTmVeTRTuOXNI6z4U6nW0j2mQC+FaO2GKmMCA==}
 
-  '@rspress/theme-default@1.37.0':
-    resolution: {integrity: sha512-4BBizHEIfocFiO2KLChD5igYFaLskYLDzOjAor0c6E1UvUde8P7jTxaL1ov9PeVavwVmPygPsh7VfDK2FLXQCA==}
+  '@rspress/theme-default@1.37.1':
+    resolution: {integrity: sha512-CSNrRWZFbZThNBddWvrybW1I1u9iXmkfbPRZ7Rd+cJKEugrGMQ78kFrMAq/e9+3O4qW8IRBbVCgDR8RvdBYo3A==}
     engines: {node: '>=14.17.6'}
 
   '@selderee/plugin-htmlparser2@0.11.0':
     resolution: {integrity: sha512-P33hHGdldxGabLFjPPpaTxVolMrzrcegejx+0GxjrIb9Zv48D8yAIA/QTDR2dFl7Uz7urX8aX6+5bCZslr+gWQ==}
-
-  '@swc/helpers@0.5.13':
-    resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
@@ -744,18 +732,14 @@ packages:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
 
-  commander@6.2.1:
-    resolution: {integrity: sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==}
-    engines: {node: '>= 6'}
-
   copy-to-clipboard@3.3.3:
     resolution: {integrity: sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==}
 
   core-js@3.39.0:
     resolution: {integrity: sha512-raM0ew0/jJUqkJ0E6e8UDtl+y/7ktFivgWvqw8dNSQeNWoSDLvQ1H/RN3aPXB9tBd4/FhyR4RDPGhsNIMsAn7g==}
 
-  cross-spawn@7.0.5:
-    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
   cssesc@3.0.0:
@@ -806,9 +790,6 @@ packages:
   dlv@1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
 
-  dom-helpers@5.2.1:
-    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
-
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
 
@@ -835,8 +816,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.62:
-    resolution: {integrity: sha512-t8c+zLmJHa9dJy96yBZRXGQYoiCEnHYgFwn1asvSPZSUdVxnB62A4RASd7k41ytG3ErFBA0TpHlKg9D9SQBmLg==}
+  electron-to-chromium@1.5.63:
+    resolution: {integrity: sha512-ddeXKuY9BHo/mw145axlyWjlJ1UBt4WK3AlvkT7W2AbqfRQoacVoRUCF6wL3uIx/8wT9oLKXzI+rFqHHscByaA==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1050,9 +1031,6 @@ packages:
   hast-util-raw@7.2.3:
     resolution: {integrity: sha512-RujVQfVsOrxzPOPSzZFiwofMArbQke6DJjnFfceiEbFh7S05CbPt0cYN+A5YeD3pso0JQk6O1aHBnx9+Pm2uqg==}
 
-  hast-util-sanitize@4.1.0:
-    resolution: {integrity: sha512-Hd9tU0ltknMGRDv+d6Ro/4XKzBqQnP/EZrpiTbpFYfXv/uOhWeKc+2uajcbEvAEH98VZd7eII2PiXm13RihnLw==}
-
   hast-util-to-estree@2.3.3:
     resolution: {integrity: sha512-ihhPIUPxN0v0w6M5+IiAZZrn0LH2uZomeWwhn7uP7avZC6TE7lIiEh2yBMPr5+zi1aUCXq6VoYRgs2Bw9xmycQ==}
 
@@ -1080,15 +1058,8 @@ packages:
   highlightjs-vue@1.0.0:
     resolution: {integrity: sha512-PDEfEF102G23vHmPhLyPboFCD+BkMGu+GuJe2d9/eH4FsCwvgBpnc9n0pGE+ffKdph38s6foEZiEjdgHdzp+IA==}
 
-  hoist-non-react-statics@3.3.2:
-    resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
-
   html-entities@2.5.2:
     resolution: {integrity: sha512-K//PSRMQk4FZ78Kyau+mZurHn3FH0Vwr+H36eE0rPbeYkRRi9YxceYPhuN60UwWorxyKHhqoAJl2OFKa4BVtaA==}
-
-  html-tags@3.3.1:
-    resolution: {integrity: sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==}
-    engines: {node: '>=8'}
 
   html-to-text@9.0.5:
     resolution: {integrity: sha512-qY60FjREgVZL03vJU6IfMV4GDjGBIoOyvuFdpBDIX9yTlDw0TjxVBQp+P8NvpdIXNJvfWBTNul7fsAQJq2FNpg==}
@@ -1102,9 +1073,6 @@ packages:
 
   htmlparser2@8.0.2:
     resolution: {integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==}
-
-  htmlparser2@9.1.0:
-    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
 
   htmr@1.0.2:
     resolution: {integrity: sha512-7T9babEHZwECQ2/ouxNPow1uGcKbj/BcbslPGPRxBKIOLNiIrFKq6ELzor7mc4HiexZzdb3izQQLl16bhPR9jw==}
@@ -1182,10 +1150,6 @@ packages:
 
   is-hexadecimal@2.0.1:
     resolution: {integrity: sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==}
-
-  is-html@3.1.0:
-    resolution: {integrity: sha512-eHrJ9L14RlcKIFXh+RlqVYiRPGp8YhSn5pSNibDLtouaJdDcn3R0Fyu3mWTXQeKCQiLoiR2V8sPPzoQSomukSg==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   is-number@7.0.0:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
@@ -1706,12 +1670,6 @@ packages:
     peerDependencies:
       react: '>= 0.14.0'
 
-  react-transition-group@4.4.5:
-    resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
-    peerDependencies:
-      react: '>=16.6.0'
-      react-dom: '>=16.6.0'
-
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
@@ -1740,9 +1698,6 @@ packages:
 
   remark-gfm@3.0.1:
     resolution: {integrity: sha512-lEFDoi2PICJyNrACFOfDD3JlLkuSbOa5Wd8EPt06HUdptv8Gn0bxYTdbU/XXQ3swAPkEaGxxPN9cbnMHvVu1Ig==}
-
-  remark-html@15.0.2:
-    resolution: {integrity: sha512-/CIOI7wzHJzsh48AiuIyIe1clxVkUtreul73zcCXLub0FmnevQE0UMFDQm7NUx8/3rl/4zCshlMfqBdWScQthw==}
 
   remark-mdx@2.3.0:
     resolution: {integrity: sha512-g53hMkpM0I98MU266IzDFMrTD980gNF3BJnkyFcmN+dD873mQeD5rdMO3Y2X+x8umQfbSE0PcoEDl7ledSA+2g==}
@@ -1773,15 +1728,11 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rslog@1.2.3:
-    resolution: {integrity: sha512-antALPJaKBRPBU1X2q9t085K4htWDOOv/K1qhTUk7h0l1ePU/KbDqKJn19eKP0dk7PqMioeA0+fu3gyPXCsXxQ==}
-    engines: {node: '>=14.17.6'}
-
   rspack-plugin-virtual-module@0.1.13:
     resolution: {integrity: sha512-VC0HiVHH6dtGfTgfpbDgVTt6LlYv+uAg9CWGWAR5lBx9FbKPEZeGz7iRUUP8vMymx+PGI8ps0u4a25dne0rtuQ==}
 
-  rspress@1.37.0:
-    resolution: {integrity: sha512-/HFYgj62GHw9SuHOMmdt/EbPf2pIAitfUUwZAdQGfgurAfvgAavGTvenKwhmRhxLmoSf9TGbDPT7ax9rVJ20uQ==}
+  rspress@1.37.1:
+    resolution: {integrity: sha512-nDoboKR1mwQdN90/uy+6XXeq8MequpvHEWrP9pXJGkEv4FQFPl3rF3iOeAqxdyCiRMS2POtD9iMt8K1v52TEXA==}
     hasBin: true
 
   run-parallel@1.2.0:
@@ -2217,10 +2168,6 @@ packages:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
     engines: {node: '>=0.4'}
 
-  yaml-front-matter@4.1.1:
-    resolution: {integrity: sha512-ULGbghCLsN8Hs8vfExlqrJIe8Hl2TUjD7/zsIGMP8U+dgRXEsDXk4yydxeZJgdGiimP1XB7zhmhOB4/HyfqOyQ==}
-    hasBin: true
-
   yaml@2.6.0:
     resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
     engines: {node: '>= 14'}
@@ -2344,13 +2291,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@loadable/component@5.16.4(react@18.3.1)':
-    dependencies:
-      '@babel/runtime': 7.26.0
-      hoist-non-react-statics: 3.3.2
-      react: 18.3.1
-      react-is: 16.13.1
-
   '@mdx-js/loader@2.3.0(webpack@5.95.0)':
     dependencies:
       '@mdx-js/mdx': 2.3.0
@@ -2386,13 +2326,6 @@ snapshots:
       '@types/mdx': 2.0.13
       '@types/react': 18.3.12
       react: 18.3.1
-
-  '@modern-js/utils@2.62.0':
-    dependencies:
-      '@swc/helpers': 0.5.13
-      caniuse-lite: 1.0.30001680
-      lodash: 4.17.21
-      rslog: 1.2.3
 
   '@module-federation/runtime-tools@0.5.1':
     dependencies:
@@ -2512,26 +2445,23 @@ snapshots:
     optionalDependencies:
       react-refresh: 0.14.2
 
-  '@rspress/core@1.37.0(webpack@5.95.0)':
+  '@rspress/core@1.37.1(webpack@5.95.0)':
     dependencies:
-      '@loadable/component': 5.16.4(react@18.3.1)
       '@mdx-js/loader': 2.3.0(webpack@5.95.0)
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/react': 2.3.0(react@18.3.1)
-      '@modern-js/utils': 2.62.0
       '@rsbuild/core': 1.1.3
       '@rsbuild/plugin-less': 1.1.0(@rsbuild/core@1.1.3)
       '@rsbuild/plugin-react': 1.0.7(@rsbuild/core@1.1.3)
       '@rsbuild/plugin-sass': 1.1.1(@rsbuild/core@1.1.3)
       '@rspress/mdx-rs': 0.6.3
-      '@rspress/plugin-auto-nav-sidebar': 1.37.0
-      '@rspress/plugin-container-syntax': 1.37.0
-      '@rspress/plugin-last-updated': 1.37.0
-      '@rspress/plugin-medium-zoom': 1.37.0(@rspress/runtime@1.37.0)
-      '@rspress/runtime': 1.37.0
-      '@rspress/shared': 1.37.0
-      '@rspress/theme-default': 1.37.0
-      body-scroll-lock: 4.0.0-beta.0
+      '@rspress/plugin-auto-nav-sidebar': 1.37.1
+      '@rspress/plugin-container-syntax': 1.37.1
+      '@rspress/plugin-last-updated': 1.37.1
+      '@rspress/plugin-medium-zoom': 1.37.1(@rspress/runtime@1.37.1)
+      '@rspress/runtime': 1.37.1
+      '@rspress/shared': 1.37.1
+      '@rspress/theme-default': 1.37.1
       copy-to-clipboard: 3.3.3
       enhanced-resolve: 5.17.1
       github-slugger: 2.0.0
@@ -2539,12 +2469,10 @@ snapshots:
       hast-util-heading-rank: 3.0.0
       html-to-text: 9.0.5
       htmr: 1.0.2(react@18.3.1)
-      is-html: 3.1.0
       lodash-es: 4.17.21
       mdast-util-mdxjs-esm: 1.3.1
       node-fetch: 3.3.2
       nprogress: 0.2.0
-      postcss: 8.4.49
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-helmet-async: 1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2554,15 +2482,12 @@ snapshots:
       rehype-stringify: 9.0.4
       remark: 14.0.3
       remark-gfm: 3.0.1
-      remark-html: 15.0.2
       remark-parse: 10.0.2
       remark-rehype: 10.1.0
       rspack-plugin-virtual-module: 0.1.13
-      source-map: 0.7.4
       unified: 10.1.2
       unist-util-visit: 4.1.2
       unist-util-visit-children: 3.0.0
-      yaml-front-matter: 4.1.1
     transitivePeerDependencies:
       - supports-color
       - webpack
@@ -2602,32 +2527,32 @@ snapshots:
       '@rspress/mdx-rs-win32-arm64-msvc': 0.6.3
       '@rspress/mdx-rs-win32-x64-msvc': 0.6.3
 
-  '@rspress/plugin-auto-nav-sidebar@1.37.0':
+  '@rspress/plugin-auto-nav-sidebar@1.37.1':
     dependencies:
-      '@rspress/shared': 1.37.0
+      '@rspress/shared': 1.37.1
 
-  '@rspress/plugin-container-syntax@1.37.0':
+  '@rspress/plugin-container-syntax@1.37.1':
     dependencies:
-      '@rspress/shared': 1.37.0
+      '@rspress/shared': 1.37.1
 
-  '@rspress/plugin-last-updated@1.37.0':
+  '@rspress/plugin-last-updated@1.37.1':
     dependencies:
-      '@rspress/shared': 1.37.0
+      '@rspress/shared': 1.37.1
 
-  '@rspress/plugin-medium-zoom@1.37.0(@rspress/runtime@1.37.0)':
+  '@rspress/plugin-medium-zoom@1.37.1(@rspress/runtime@1.37.1)':
     dependencies:
-      '@rspress/runtime': 1.37.0
+      '@rspress/runtime': 1.37.1
       medium-zoom: 1.1.0
 
-  '@rspress/runtime@1.37.0':
+  '@rspress/runtime@1.37.1':
     dependencies:
-      '@rspress/shared': 1.37.0
+      '@rspress/shared': 1.37.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-helmet-async: 1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-router-dom: 6.28.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
-  '@rspress/shared@1.37.0':
+  '@rspress/shared@1.37.1':
     dependencies:
       '@rsbuild/core': 1.1.3
       chalk: 5.3.0
@@ -2636,18 +2561,14 @@ snapshots:
       gray-matter: 4.0.3
       unified: 10.1.2
 
-  '@rspress/theme-default@1.37.0':
+  '@rspress/theme-default@1.37.1':
     dependencies:
       '@mdx-js/react': 2.3.0(react@18.3.1)
-      '@rspress/runtime': 1.37.0
-      '@rspress/shared': 1.37.0
+      '@rspress/runtime': 1.37.1
+      '@rspress/shared': 1.37.1
       body-scroll-lock: 4.0.0-beta.0
       copy-to-clipboard: 3.3.3
       flexsearch: 0.7.43
-      github-slugger: 2.0.0
-      hast-util-from-html: 2.0.3
-      html-to-text: 9.0.5
-      htmlparser2: 9.1.0
       htmr: 1.0.2(react@18.3.1)
       lodash-es: 4.17.21
       nprogress: 0.2.0
@@ -2655,17 +2576,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-helmet-async: 1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-syntax-highlighter: 15.6.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      rspack-plugin-virtual-module: 0.1.13
 
   '@selderee/plugin-htmlparser2@0.11.0':
     dependencies:
       domhandler: 5.0.3
       selderee: 0.11.0
-
-  '@swc/helpers@0.5.13':
-    dependencies:
-      tslib: 2.8.1
 
   '@swc/helpers@0.5.15':
     dependencies:
@@ -2887,7 +2802,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001680
-      electron-to-chromium: 1.5.62
+      electron-to-chromium: 1.5.63
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -2951,15 +2866,13 @@ snapshots:
 
   commander@4.1.1: {}
 
-  commander@6.2.1: {}
-
   copy-to-clipboard@3.3.3:
     dependencies:
       toggle-selection: 1.0.6
 
   core-js@3.39.0: {}
 
-  cross-spawn@7.0.5:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
@@ -2994,11 +2907,6 @@ snapshots:
   diff@5.2.0: {}
 
   dlv@1.1.3: {}
-
-  dom-helpers@5.2.1:
-    dependencies:
-      '@babel/runtime': 7.26.0
-      csstype: 3.1.3
 
   dom-serializer@1.4.1:
     dependencies:
@@ -3036,7 +2944,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.62: {}
+  electron-to-chromium@1.5.63: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3136,7 +3044,7 @@ snapshots:
 
   execa@5.1.1:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -3185,7 +3093,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
   format@0.2.2: {}
@@ -3310,10 +3218,6 @@ snapshots:
       web-namespaces: 2.0.1
       zwitch: 2.0.4
 
-  hast-util-sanitize@4.1.0:
-    dependencies:
-      '@types/hast': 2.3.10
-
   hast-util-to-estree@2.3.3:
     dependencies:
       '@types/estree': 1.0.6
@@ -3387,13 +3291,7 @@ snapshots:
 
   highlightjs-vue@1.0.0: {}
 
-  hoist-non-react-statics@3.3.2:
-    dependencies:
-      react-is: 16.13.1
-
   html-entities@2.5.2: {}
-
-  html-tags@3.3.1: {}
 
   html-to-text@9.0.5:
     dependencies:
@@ -3413,13 +3311,6 @@ snapshots:
       entities: 2.2.0
 
   htmlparser2@8.0.2:
-    dependencies:
-      domelementtype: 2.3.0
-      domhandler: 5.0.3
-      domutils: 3.1.0
-      entities: 4.5.0
-
-  htmlparser2@9.1.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
@@ -3487,10 +3378,6 @@ snapshots:
   is-hexadecimal@1.0.4: {}
 
   is-hexadecimal@2.0.1: {}
-
-  is-html@3.1.0:
-    dependencies:
-      html-tags: 3.3.1
 
   is-number@7.0.0: {}
 
@@ -4230,15 +4117,6 @@ snapshots:
       react: 18.3.1
       refractor: 3.6.0
 
-  react-transition-group@4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      '@babel/runtime': 7.26.0
-      dom-helpers: 5.2.1
-      loose-envify: 1.4.0
-      prop-types: 15.8.1
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-
   react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
@@ -4287,14 +4165,6 @@ snapshots:
       unified: 10.1.2
     transitivePeerDependencies:
       - supports-color
-
-  remark-html@15.0.2:
-    dependencies:
-      '@types/mdast': 3.0.15
-      hast-util-sanitize: 4.1.0
-      hast-util-to-html: 8.0.4
-      mdast-util-to-hast: 12.3.0
-      unified: 10.1.2
 
   remark-mdx@2.3.0:
     dependencies:
@@ -4345,17 +4215,15 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rslog@1.2.3: {}
-
   rspack-plugin-virtual-module@0.1.13:
     dependencies:
       fs-extra: 11.2.0
 
-  rspress@1.37.0(webpack@5.95.0):
+  rspress@1.37.1(webpack@5.95.0):
     dependencies:
       '@rsbuild/core': 1.1.3
-      '@rspress/core': 1.37.0(webpack@5.95.0)
-      '@rspress/shared': 1.37.0
+      '@rspress/core': 1.37.1(webpack@5.95.0)
+      '@rspress/shared': 1.37.1
       cac: 6.7.14
       chalk: 5.3.0
       chokidar: 3.6.0
@@ -4819,11 +4687,6 @@ snapshots:
       strip-ansi: 7.1.0
 
   xtend@4.0.2: {}
-
-  yaml-front-matter@4.1.1:
-    dependencies:
-      commander: 6.2.1
-      js-yaml: 3.14.1
 
   yaml@2.6.0: {}
 
