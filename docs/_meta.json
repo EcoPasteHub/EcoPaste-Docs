@@ -15,9 +15,14 @@
     "activeMatch": "/download/"
   },
   {
-    "text": "赞助",
+    "text": "赞助我们",
     "link": "/sponsor/",
     "activeMatch": "/sponsor/"
+  },
+  {
+    "text": "社区交流",
+    "link": "/community/",
+    "activeMatch": "/community/"
   },
   {
     "type": "custom-link",

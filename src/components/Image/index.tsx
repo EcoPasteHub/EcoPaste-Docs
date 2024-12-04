@@ -1,19 +1,20 @@
-import React, { FC } from "react";
+import clsx from "clsx";
+import React, { FC, HTMLAttributes } from "react";
 
-interface ImageProps {
+interface ImageProps extends HTMLAttributes<HTMLImageElement> {
   src: string;
   darkSrc?: string;
 }
 
 const Image: FC<ImageProps> = (props) => {
-  const { src, darkSrc } = props;
+  const { src, darkSrc, className } = props;
 
   return (
     <>
-      <img src={src} className="dark:hidden" />
+      <img src={src} className={clsx("dark:hidden", className)} />
       <img
         src={darkSrc ?? src.replace("light", "dark")}
-        className="hidden dark:block"
+        className={clsx("hidden dark:block", className)}
       />
     </>
   );
