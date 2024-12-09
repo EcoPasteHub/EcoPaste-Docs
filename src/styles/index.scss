@@ -19,6 +19,14 @@ h4 {
   }
 }
 
+.rspress-doc {
+  .sponsor-list {
+    td:last-of-type {
+      max-width: 497px;
+    }
+  }
+}
+
 .rspress-doc-footer {
   @media (min-width: 640px) {
     .sm\:flex-row {
